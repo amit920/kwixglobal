@@ -1,0 +1,127 @@
+
+.bg_banner4{
+background: url(../img/slider/bg_banner41.png) no-repeat;background-position: right;
+background-size: 64%;padding: 10% 0px; position: relative;}
+
+
+.main_cara_left {float: left; width: 30%; transition: 0.5s; position: relative;
+left: 0px;}
+.right_cara_content {float: left;width: 70%; padding: 10px 10% 0px 20%;}
+
+.content_inner_owl {margin-top: 40px;}
+
+
+
+/*--31may--*/
+
+.mainbanner{position: relative;	}
+.content_inner_owl h2 {color: #fff;letter-spacing: 7px;font-weight: bold;
+    font-size: 45px; margin: 20px 0 20px 0; position: relative;    left: 200px;
+    opacity: 0 ;transition: 1s}
+.content_inner_owl p{ color: #fff; right: 100px;opacity: 0 ;transition:1s }
+.mainbanner .owl-item.active .content_inner_owl h2 {position: relative;
+    left: 0px;    opacity: 1;}
+.mainbanner .owl-item.active .content_inner_owl p {position: relative;
+    right: 0px;    opacity: 1;}
+.content_inner_owl a {background: #fff;color: #288af3;padding: 16px 33px;
+font-size: 18px;display: inline-block; text-decoration: none;
+position: relative; bottom: -50px; opacity: 0px; transition:1s; 
+}
+.mainbanner .owl-item.active .content_inner_owl a {position: relative;
+bottom: 0px;    opacity: 1;}
+.mainbanner .owl-item.active .main_cara_left{ left: 30px; }
+
+
+/*.mainbanner .owl-dots {position: absolute;bottom: -10px;right: 0px;height: 50px;
+    text-align: left;width: 70%;padding: 0px 0px 0px 20%;}
+
+.mainbanner .owl-dot {width: 40px;height: 7px;background: #fff;
+display: inline-block;margin-right: 5px;border-radius: 5px;}
+
+.mainbanner .owl-dot.active {background: #78b9ff;}
+*/
+
+/*--31may--*/
+
+
+
+#sync1 .item {
+    background: #0c83e7;
+    padding: 80px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  #sync2 .item {
+    background: #C9C9C9;
+    padding: 10px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+#sync2 h1 {   font-size: 18px;    } 
+#sync2 .current .item{    background: #0c83e7;  }
+
+.owl-theme .owl-nav {transition: all .3s ease;background-color: #D6D6D6;}
+
+
+#sync1.owl-theme .owl-next, .owl-prev{position: relative; width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;}
+#sync1.owl-theme .owl-prev {
+    left: 10px;
+  }
+#sync1.owl-theme .owl-next {
+    right: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 992px){
+	.bg_banner4{background-size: 83%;}
+}
+
+@media screen and (max-width : 767px){
+.bg_banner4{background-size: 100%; background:#2180e4;}
+.main_cara_left {float: none;width: 100%; padding: 0px 15px}
+.main_cara_left img {width: 280px !important;margin: 0 auto;display: block;}
+.right_cara_content {float: none;width: 100%; padding: 0px 15px;
+	text-align: center;}
+.mainbanner .owl-item.active .main_cara_left{left: 0px;}
+.bg_banner4{padding: 30px 0px;}
+}
+
+
+
+

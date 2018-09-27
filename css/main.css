@@ -1,0 +1,49 @@
+
+
+
+
+/*iphone_app*/
+
+
+/*==========  Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px){
+
+}
+/* Large Devices, Wide Screens/ */
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+
+
+}
+/* Medium Devices, Desktops/ */
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+
+
+}
+
+/* Small Devices, Tablets/ */
+
+
+/* Extra Small Devices */
+@media only screen and (max-width : 767px){
+
+
+}
+/* Extra Small Devices/ */
+
+
+/*Phones */
+@media only screen and (max-width : 575px){
+
+}
+/* Phones/ */
+
+
+

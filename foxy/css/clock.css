@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+
+
+ #clock {
+          position: relative;
+          width: 250px;
+          height: 250px;
+         list-style: none;
+          }
+        
+
+
+#clock .item.hours {
+  height: 50px;
+  width: 6px;
+  bottom: 50%;
+  left: 50%;
+  margin-left: -3px;
+  background-color: #e9ece5;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  z-index: 3;
+}
+#clock .item.hours:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: -7px;
+  height: 20px;
+  width: 20px;
+  background-color: #e9ece5;
+  z-index: 2;
+  border-radius: 50%;
+}
+#clock .item.minutes {
+  height: 77px;
+  width: 4px;
+  bottom: 50%;
+  left: 50%;
+  margin-left: -2px;
+  background-color: #6ed3cf;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  z-index: 4;
+}
+#clock .item.minutes:after {
+  content: "";
+  position: absolute;
+  bottom: -7.5px;
+  left: -5.5px;
+  height: 15px;
+  width: 15px;
+  background-color: #6ed3cf;
+  z-index: 2;
+  border-radius: 50%;
+}
+#clock .item.seconds {
+  height: 37%;
+  width: 2px;
+  bottom: 50%;
+  left: 50%;
+  margin-left: -1px;
+  background-color: #e62739;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  z-index: 5;
+}
+#clock .item.seconds:before {
+  content: "";
+  position: absolute;
+  background-color: #e62739;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  top: -5px;
+  left: -4px;
+}
+#clock .item.seconds:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 1px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 10px;
+  width: 10px;
+  background-color: #e62739;
+  z-index: 2;
+  border-radius: 50%;
+}
+#clock .numbers {
+  position: relative;
+  color: #2988ed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+#clock .numbers .number {
+  position: absolute;
+  line-height: 1;
+}
+#clock .numbers .one {
+  top: 5%;
+  right: 22.5%;
+}
+#clock .numbers .two {
+  top: 22%;
+  right: 7%;
+}
+#clock .numbers .tree {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  right: 0;
+}
+#clock .numbers .four {
+  bottom: 22%;
+  right: 7%;
+}
+#clock .numbers .five {
+  bottom: 5%;
+  right: 22.5%;
+}
+#clock .numbers .six {
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+#clock .numbers .seven {
+  bottom: 5%;
+  left: 22.5%;
+}
+#clock .numbers .eight {
+  bottom: 22%;
+  left: 7%;
+}
+#clock .numbers .nine {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  left: 0;
+}
+#clock .numbers .ten {
+  top: 22%;
+  left: 5%;
+}
+#clock .numbers .eleven {
+  top: 5%;
+  left: 22.5%;
+  -webkit-transform: translate(-25%, 0);
+          transform: translate(-25%, 0);
+}
+#clock .numbers .twelve {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+#clock .indicator {
+  position: absolute;
+  font-family: 'icomoon' !important;
+  color: #e9ece5;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 80px;
+  width: 80px;
+  display: block;
+}
+#clock .indicator #volume {
+  position: absolute;
+  display: block;
+  font-size: 7em;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: all 1s;
+  z-index: 777;
+}

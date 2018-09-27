@@ -1,0 +1,117 @@
+.banner_full {overflow: hidden;position: relative; height: 100vh; }
+
+.banner_full::after {content: "";
+background: linear-gradient(to bottom right, #20CCB2, #0D0ABE);opacity: 0.7;
+position: absolute;left: 0;right: 0;top: 0;bottom: 0;}
+header {position: absolute;left: 0;right: 0;z-index: 10;}
+.videos_part {position: relative;overflow: hidden;height: 100vh ;}
+.videobg video {object-fit: cover;min-width: 125%;position: absolute;top: 0;
+z-index: 0 !important;left: 0;width: 100%;bottom: 0px;right: 0px;
+height: 100vh;}
+.videoFilterColor {object-fit: cover;min-width: 125%;position: absolute;
+top: 0;z-index: 0 !important;left: 0;width: 100%; height: 100vh}
+.main_scroll {position: absolute;left: 0;right: 0;bottom: 0;top: 50%;
+transform: translateY(-20%);text-align: center;z-index: 1;}
+.content_banner h3{font-size: 44px; color:#fff; margin-bottom: 40px;}
+.content_banner p{font-size: 20px; color:#fff;}
+.navbar-nav > li > a{font-size: 17px;}
+.mainbannerbanner{position: relative;}
+.navbar {left: 0;right: 0;}
+.mainbannerbanner .owl-dots {position: absolute;right: 70px;top: 10%;bottom: 0;width: 10px;}
+.mainbannerbanner .owl-dot.active {height: 90px;width: 3px;margin: 12px 2px; }
+.mainbannerbanner .owl-dot {display: block;width: 7px;height: 7px;background: #fff;
+border-radius: 30px;margin-bottom: 10px; transition: 0.7s}
+.container_inner_fluid {max-width: 1280px;margin: 0 15px;}
+.middle_div {display: flex;justify-content: center;align-items: center;}
+.main_all img {    height: 100vh; width: 100%}
+.main_vertical{height: 100%;}
+.left_vertical,.right_vertical{height: 100vh;float: left; 
+position: relative;}
+.left_vertical{width: 30%;}
+.right_vertical{width: 70%;padding: 20% 10% 190px 20%;}
+.right_content_img h3 {font-size: 34px;}
+.left_media_img {width: 60px;float: left;}
+.right_content_img{margin-left: 80px;color: #fff;}
+.main_v_meida{margin-bottom: 20px;}
+.main_v_meida span{margin-top: 10px; color:#fff;display: block;font-size: 17px;}
+.right_v_content p{color: #fff; letter-spacing: 1px;font-size:20px;line-height: 180%;}
+.vertical_slider .owl-dots {position: absolute;left: 30px;top: 30%;width: 20px;
+bottom: 0px;}
+.vertical_slider .owl-dot {display: block;background: #2988ed;width: 10px;
+height: 10px;border-radius: 50px;margin-bottom: 16px;transition: 0.5s}
+.vertical_slider .owl-dot.active {height: 110px;width: 5px;margin: 20px 3px;}
+.app_btns{margin-top: 30px;}
+.app_btns > ul > li {float: left;padding-right: 13px;}
+.app_btns > ul > li > a {display: block;width: 200px;}
+.footer_top { padding: 60px 0px 21px;}
+.div_bottom {display: flex;align-items: flex-end; width: 100%}
+.main_central_box{position: relative;}
+.mob_img {position: fixed;left: calc(21% - -10px);z-index: 1;top: 30%;width: 240px;overflow: hidden;}
+.top_grid {position: relative; background: #fff; }
+.project-clip {clip: rect(auto,auto,auto,auto);height: 100%;width: 100%; bottom: 0;left: 0; position: absolute;
+top: 0;right: 0;}
+.mode_one {height: 650px !important;padding-top: 120px;}
+.mode_tow {height: 300px !important;}
+.myblog a .blogimg{height: 270px;}
+.blogs img{height: auto;}
+.blockquotes{border-left: 0px;padding: 9px 0px;}
+.dub_box {box-shadow: 0 9px 18px #e6e6e6;height: 558px;}
+.text_block_grid {padding: 0px 30px;}
+.matter_div {position: absolute;left: 0;right: 0;top: 500px;bottom: 0;background: #0000004d;transition: 0.5s;
+border-radius: 20px;overflow: hidden;width: 216px;left: 13px;height: 459px;}
+.example-classname.fitst.box-show .matter_div{top: 10px;}
+
+
+@media screen and (max-width:1368px){
+
+.right_vertical{width: 70%;padding: 10% 10% 190px 20%;}
+.mob_img {position: fixed;left: 18%;z-index: 1;top: 11%;	}
+
+
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+.mob_img{left: 15%}
+
+}
+
+
+@media screen and (max-width:992px){
+section{float: none !important;}
+.main_scroll{top: 40%}
+.mob_img{display: none;}
+.left_vertical {display: none;}
+.right_vertical{display: block;width: 100%;padding: 10% 15px 15px 15px;}
+.mode_one {height: auto !important;padding-top: 60px;}
+.mode_tow {height: auto !important;padding-top: 60px;}
+.app_btns > ul > li{margin-bottom: 20px;}
+}
+
+
+
+@media screen and (max-width:767px){
+.hidden-xs.fz-16 {display: block !important;}
+.hidden-xs.top_head_heading {display: block !important;}
+
+.left_vertical, .right_vertical{height: auto; padding:50px 15 px }
+.bg_banner6 {padding: 60px 15px;height: auto !important;}
+
+}
+
+
+@media screen and (max-width:575px){
+	.content_banner h3 {font-size: 20px;}
+.content_banner p {font-size: 16px;color: #fff;}
+.main_scroll {top: 28%;}
+
+
+
+}
+
+
+
+

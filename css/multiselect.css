@@ -1,0 +1,140 @@
+
+
+.ms-options-wrap > button:focus,
+.ms-options-wrap > button {
+position: relative;
+width: 100%;
+text-align: left;
+border: 1px solid #ddd;
+background-color: #f9f9f9;
+padding: 0px 0px 5px 0px;
+margin-top: 1px;
+color: #999;
+outline-offset: -2px;
+white-space: nowrap;
+height: 53px;
+}
+
+.ms-options-wrap > button > span {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.ms-options-wrap > button[disabled] {
+    background-color: #e5e9ed;
+    color: #808080;
+    opacity: 0.6;
+}
+
+
+.ms-options-wrap.ms-has-selections > button {
+    color: #333;
+}
+
+.ms-options-wrap > .ms-options {
+    position: absolute;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    background: white;
+    z-index: 2000;
+    border: 1px solid #aaa;
+    padding-bottom: 10px;
+    visibility: hidden;
+    left: 0px; right: 0px;
+    min-height: auto !important;
+}
+
+.ms-options-wrap.ms-active > .ms-options {
+    visibility: visible
+}
+
+.ms-options-wrap > .ms-options > .ms-search input {
+    width: 100%;
+    padding: 4px 5px;
+    border: none;
+    border-bottom: 1px groove;
+    outline: none;
+}
+
+.ms-options-wrap > .ms-options .ms-selectall {
+    display: inline-block;
+    font-size: .9em;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+.ms-options-wrap > .ms-options .ms-selectall:hover {
+    text-decoration: underline;
+}
+
+.ms-options-wrap > .ms-options > .ms-selectall.global {
+    margin: 4px 5px;
+    display: none;
+}
+
+.ms-options-wrap > .ms-options > ul,
+.ms-options-wrap > .ms-options > ul > li.optgroup ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ms-options-wrap > .ms-options > ul li.ms-hidden {
+    display: none;
+}
+
+.ms-options-wrap > .ms-options > ul > li.optgroup {
+    padding: 5px;
+}
+.ms-options-wrap > .ms-options > ul > li.optgroup + li.optgroup {
+    border-top: 1px solid #aaa;
+}
+
+.ms-options-wrap > .ms-options > ul > li.optgroup .label {
+    display: block;
+    padding: 5px 0 0 0;
+    font-weight: bold;
+}
+
+.ms-search {
+    display: none;
+}
+
+.ms-options-wrap > .ms-options > ul label {
+    position: relative;
+    display: inline-block;
+    width:100%;
+    padding: 4px;
+    margin: 1px 0;
+    border: 1px dotted transparent;
+    background: transparent !important;
+    color: #777;
+    font-size: 13px;
+}
+
+.ms-options-wrap > .ms-options > ul label.focused,
+.ms-options-wrap > .ms-options > ul label:hover {
+    background-color: #efefef;
+    border-color: #999;
+}
+
+.ms-options-wrap > .ms-options > ul li.selected label {
+    background-color: #efefef;
+    border-color: transparent;
+}
+
+.ms-options-wrap > .ms-options > ul input[type="checkbox"] {
+      position: absolute;
+    left: 2px;
+    top: 6px;
+    width: 15px;
+    height: 15px;
+}
+
+.ms-options-wrap > .ms-options.hide-checkbox > ul input[type="checkbox"] {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
